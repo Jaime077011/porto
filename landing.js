@@ -753,7 +753,7 @@ while loading this video:
         // finally get our front texture
         vec4 foreground = texture(uRenderTexture, frontRippleCoords);
 `,br=`            
-        vec4 bgColor = vec4(1.0);
+        vec4 bgColor = rgb2glsl(vec4(0.0, 94.0, 100.0, 87.0));
         
         // main color for ripple effect and page transitions
         vec4 secondaryColor = rgb2glsl(vec4(232.0, 48.0, 48.0, 1.0)); // red
