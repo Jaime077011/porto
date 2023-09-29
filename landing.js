@@ -642,7 +642,7 @@ while loading this video:
     const float power = 10.1;
 `,vr=`
     vec3 rgb2glsl(vec3 rgb) {
-        return vec3(rgb.r / 255.0, rgb.g / 255.0, rgb.b / 255.0);
+        return vec3(rgb.r / 1000.0, rgb.g / 255.0, rgb.b / 255.0);
     }
     
     vec4 rgb2glsl(vec4 rgb) {
